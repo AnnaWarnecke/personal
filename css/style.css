@@ -200,6 +200,7 @@ h1 {
     font-size: 12px;
     padding-left: 185px;
     font-family: serif;
+    text-align: center;
     
 }
 
@@ -214,6 +215,7 @@ h1 {
     font-size: 12px;
     padding-left: 198px;
     font-family: serif;
+    text-align: center;
     
 }
 
@@ -320,13 +322,14 @@ h1 {
 @media screen and (max-width:900px) {
     .shorttext {
         display: flex;
-        padding-left: 10px;
+        text-align: center;
     }
 }
 
 @media screen and (max-width:900px) {
     .img-portrait {
         width: 100%;
+        height: auto;
         padding-left: 1.5px;
        
     }
@@ -334,12 +337,12 @@ h1 {
 
 @media screen and (max-width:900px) {
     .Instagram {
-        padding-left: 195px;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 900px) {
     .Mail {
-        padding-left: 210px;
+        text-align: center;
     }
 }
