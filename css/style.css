@@ -323,6 +323,8 @@ h1 {
     .shorttext {
         display: flex;
         text-align: center;
+        padding-left: 10px;
+
     }
 }
 
