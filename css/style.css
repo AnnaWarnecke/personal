@@ -40,7 +40,7 @@ nav{
     font-size: 15px;
     text-align: center;
     padding-right: 2.8em;
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 7em;
     padding-bottom: 1em;
     
@@ -114,7 +114,7 @@ h1 {
     position: fixed;
     padding-bottom: 20px;
     padding-top: 0px;
-    padding-left: 9.4em;
+    padding-left: 9.12em;
 }
 
 
@@ -241,19 +241,23 @@ h1 {
 
 @media screen and (max-width:900px) {
     h1 {
-        display: flex;
-        padding-left: 37px;
-        font-size: 31px;        
+        display: grid;
+        padding-left: 3.5em;
+        font-size: 31px;
+        grid-template-columns: repeat(1,1fr);
+
     }
 }
 
 @media screen and (max-width:900px) {
     .menu { 
-        display: flex;
+        display: grid;
         padding-top: 62px;
         padding-bottom: 5px;
-        padding-left: 65px;
+        padding-left: 7px;
         font-size: 12px;
+        grid-template-columns: repeat(1,1fr);
+
     }     
 }
 
@@ -340,11 +344,13 @@ h1 {
 @media screen and (max-width:900px) {
     .Instagram {
         text-align: center;
+        padding-left: 190px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .Mail {
         text-align: center;
+        padding-left: 205px;
     }
 }
