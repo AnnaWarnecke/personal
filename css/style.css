@@ -1,0 +1,345 @@
+/* reset */
+
+.button {
+    padding: 5px 30px;
+    position: absolute;
+    right: 0em;
+    top: 3em;
+    opacity: 40%;
+}
+
+.button img {
+    width: 13.5px;
+    height: auto;
+    color: white;
+}
+
+
+.button2 {
+    padding: 5px 30px;
+    position: absolute;
+    right: 1.5em;
+    top: 3em;
+    opacity: 40%;
+    
+}
+
+.button2 img {
+    width: 18.5px;
+    height: auto;
+}
+
+
+nav{
+    align-items: center;
+
+}
+
+.menu{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 2.8em;
+    padding-left: 2em;
+    padding-top: 7em;
+    padding-bottom: 1em;
+    
+}
+
+
+nav ul li {
+    font-family: Arial sans-serif;
+    display: inline-flex;
+    padding: 1px 20px; 
+    opacity: 50%;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gray;
+    
+}
+
+figure {
+    padding: 0;
+    margin: 10;
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*styles*/
+
+body {
+    font-family: Arial, sans-serif; 
+    padding: 10px; 
+    background-color: black;
+    
+        }
+
+/* Create four equal columns that sits next to each other */
+
+.row{
+display: flex;
+}
+
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 3px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+h1 {
+    color: #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 3.3em;
+    font-weight: bolder;
+    top: 10px;
+    position: fixed;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-left: 9.4em;
+}
+
+
+.footer {
+    clear: both;
+    text-align: center;
+    font-family: Georgia,Times,Times New Roman,serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: white;
+    opacity: 40%;
+    
+}
+
+
+/* about */
+
+.about-anna {
+    color: white;
+    font-family: serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+
+.text-about{
+    color: white;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+
+.img-personal{
+    width: 60%;
+    height: auto;
+    padding-left: 280px;
+
+}
+
+
+/* contact */
+
+.shorttext {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 10.5px;
+    font-family: Arial sans-serif;
+}
+
+.img-portrait {
+    width: 100%;
+    height: auto;
+    
+}
+
+.img-portrait {
+    margin-top: 8px;
+    padding-left: 479px;
+    width: 32%;
+    margin-top: 8px;
+    vertical-align: middle;   
+}
+
+.shorttext-2 {
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    
+}
+
+.Instagram {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 185px;
+    font-family: serif;
+    
+}
+
+.Instagram:hover {
+    color: darkred;
+    
+}
+
+.Mail {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 198px;
+    font-family: serif;
+    
+}
+
+.Mail:hover {
+    color: darkred;
+    
+}
+    
+}
+.button-link {
+    padding: 3px 30px;
+    border-radius: 1px;
+    position: relative;
+    width: 18px;
+    height: auto;
+    
+}
+
+    
+
+/* mobile */
+
+
+@media screen and (max-width:900px) {
+    h1 {
+        display: flex;
+        padding-left: 37px;
+        font-size: 31px;        
+    }
+}
+
+@media screen and (max-width:900px) {
+    .menu { 
+        display: flex;
+        padding-top: 62px;
+        padding-bottom: 5px;
+        padding-left: 65px;
+        font-size: 12px;
+    }     
+}
+
+
+@media screen and (max-width:900px) {
+    .footer {
+        display: grid;
+        font-size: 0.6em;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:900px) {
+    .button {
+        right: -0.5em;
+        top: 1em;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .button2 {
+        right: 2em;
+        top: 1.5em;
+        font-size: 8px;
+    }
+}
+
+
+/* mobile about */
+
+
+@media screen and (max-width:900px) {
+    .about-anna {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .text-about {
+        display: flex;
+        padding-left: 1px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .img-personal {
+        width: 100%;
+        padding-left: 0.1px;
+    }
+}
+
+
+/* mobile contact */
+
+
+@media screen and (max-width:900px) {
+    .shorttext {
+        display: flex;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .img-portrait {
+        width: 100%;
+        padding-left: 1.5px;
+       
+    }
+}
+
+@media screen and (max-width:900px) {
+    .Instagram {
+        padding-left: 195px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Mail {
+        padding-left: 210px;
+    }
+}
